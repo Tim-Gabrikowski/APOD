@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>APOD | Astronomy Picture of the Day</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div id="img-cont">
+			<img src="" alt="APOD loading" id="image" />
+			<iframe style="display: none" id="iframe"></iframe>
+		</div>
+		<div id="copy-notice">
+			<p id="copy">&copy; Copyright notice here</p>
+		</div>
+		<div id="info-cont">
+			<h1>Astronomy Picture of the Day</h1>
+			<h3 id="date"></h3>
+			<div class="spacer" style="--m: 10px"></div>
+			<h2 id="title"></h2>
+			<div class="spacer" style="--m: 10px"></div>
+			<p id="description"></p>
+		</div>
+		<script>
+			const nasa_api_key = "kUCoXlhXAjGZCBBX3lZpnOKtdcAaubjW8nfm4fJk";
+		</script>
+		<script src="./script.js"></script>
+	</body>
+</html>
