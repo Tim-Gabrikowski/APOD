@@ -25,7 +25,7 @@ let copyright = document.getElementById("copy");
 
 let hideButton = document.getElementById("hide_btn");
 
-hideButton.onclick = () => {
+function hideInfo() {
 	infoContainer.style.display = "none";
 }
 
