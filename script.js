@@ -13,6 +13,7 @@ function getIOTD() {
 	};
 	request.send();
 }
+let infoContainer = document.getElementById("info_cont");
 
 let image = document.getElementById("image");
 let iframe = document.getElementById("iframe");
@@ -21,6 +22,12 @@ let date = document.getElementById("date");
 let title = document.getElementById("title");
 let description = document.getElementById("description");
 let copyright = document.getElementById("copy");
+
+let hideButton = document.getElementById("hide_btn");
+
+hideButton.onclick = () => {
+	infoContainer.style.display = "none";
+}
 
 function updatePage(response) {
 	if (response.media_type === "image") {
