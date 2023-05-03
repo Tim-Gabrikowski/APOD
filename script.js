@@ -24,9 +24,15 @@ let description = document.getElementById("description");
 let copyright = document.getElementById("copy");
 
 let hideButton = document.getElementById("hide_btn");
+let showButton = document.getElementById("show_btn");
 
 function hideInfo() {
 	infoContainer.style.display = "none";
+	showButton.style.display = "block";
+}
+function showInfo() {
+	infoContainer.style.display = "flex";
+	showButton.style.display = "none";
 }
 
 function updatePage(response) {

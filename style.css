@@ -36,6 +36,8 @@ button {
 	border-radius: 5px;
 	background-color: black;
 	color: white;
+	padding: 10px;
+	margin: 10px;
 }
 #info-cont {
 	position: fixed;
@@ -51,6 +53,12 @@ button {
 	justify-content: center;
 	max-width: 400px;
 	text-align: center;
+}
+#show_btn {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 h1 {
 	margin: 0;
