@@ -13,7 +13,7 @@ function getIOTD() {
 	};
 	request.send();
 }
-let infoContainer = document.getElementById("info_cont");
+let infoContainer = document.getElementById("info-cont");
 
 let image = document.getElementById("image");
 let iframe = document.getElementById("iframe");
